@@ -1,0 +1,58 @@
+/* applied to screens < 575px */
+@media (max-width: 575px) {
+    .content-container {
+		width: 80%!important;
+		margin-left: 10%!important;
+	}
+
+	.todo-input {
+		font-size: 25px!important;
+	}
+}
+
+.transition {
+	-webkit-transition: border-bottom 0.2s ease-in-out;
+	-moz-transition: border-bottom 0.2s ease-in-out;
+	-o-transition: border-bottom 0.2s ease-in-out;
+	-ms-transition: border-bottom 0.2s ease-in-out;
+	transition: border-bottom 0.2s ease-in-out;
+}
+
+.content-container {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+
+.todo-input {
+	border: 0;
+  	outline: 0;
+  	background: transparent;
+  	border-bottom: 1px solid lightgrey;
+  	width: 100%;
+  	font-size: 30px;
+  	margin-bottom: 5%;
+}
+
+.todo-input:focus {
+	border-bottom: 1px solid black;
+}
+
+.todo-list {
+	font-size: 25px;
+	list-style-type: none;
+	height: 60vh;
+	overflow: scroll;
+}
+
+.todo-item {
+	margin-bottom: 10px;
+	word-wrap:break-word;
+}
+.todo-toggle:hover {
+	cursor: pointer;
+}
+
+.dummy {
+	display: none;
+}
